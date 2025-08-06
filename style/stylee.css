@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6f0;
+    color: #4d004d;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff99cc;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav {
+    background-color: #ffb3d9;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #800040;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+}
+
+.card {
+    background-color: #ffe6f0;
+    border: 2px solid #ffb3d9;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #ff99cc;
+    text-align: center;
+    padding: 10px;
+}
+
+.precios li {
+    margin-bottom: 5px;
+}
+.logo-titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ffb3d9;
+}
+.marca-derecha {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: 2px solid #ffb3d9;
+    box-shadow: 0 0 8px rgba(255, 0, 128, 0.3);
+    z-index: 100;
+}
+
